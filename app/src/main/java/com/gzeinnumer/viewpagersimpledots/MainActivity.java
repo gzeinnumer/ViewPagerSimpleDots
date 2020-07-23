@@ -23,8 +23,8 @@ public class MainActivity extends AppCompatActivity {
 
         ViewPagerAdapter viewPagerAdapter = new ViewPagerAdapter(getSupportFragmentManager(), FragmentPagerAdapter.BEHAVIOR_RESUME_ONLY_CURRENT_FRAGMENT);
 
-        viewPagerAdapter.addFragment(new FirstFragment());
-        viewPagerAdapter.addFragment(new SecondFragment());
+        viewPagerAdapter.addFragment(FirstFragment.newInstance());
+        viewPagerAdapter.addFragment(SecondFragment.newInstance());
 
         viewPager.setAdapter(viewPagerAdapter);
         dotsTab.setupWithViewPager(viewPager);

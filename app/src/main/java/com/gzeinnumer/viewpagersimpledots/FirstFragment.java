@@ -12,6 +12,9 @@ public class FirstFragment extends Fragment {
     public FirstFragment() {
         // Required empty public constructor
     }
+    public static FirstFragment newInstance() {
+        return new FirstFragment();
+    }
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,

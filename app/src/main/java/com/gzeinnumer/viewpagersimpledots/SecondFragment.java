@@ -13,6 +13,9 @@ public class SecondFragment extends Fragment {
     public SecondFragment() {
         // Required empty public constructor
     }
+    public static SecondFragment newInstance() {
+        return new SecondFragment();
+    }
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
