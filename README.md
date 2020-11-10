@@ -87,24 +87,6 @@ public class ViewPagerAdapter extends FragmentPagerAdapter {
 }
 ```
 
-- `fragment_first.xml`
-```xml
-<?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context=".FirstFragment">
-
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
-
-</FrameLayout>
-```
-
 - `FirstFragment.java`
 ```java
 public class FirstFragment extends Fragment {
